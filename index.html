@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#00c878">
+  <script type="text/javascript" src="modules/lodash.js"></script>
+  <script type="text/javascript" src="modules/test-boilerplate.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <body bgcolor="thistle" text="darkviolet"></body>
+  <div class="header">
+    <img class="flowers" src="7J9A7899.JPG">
+    <p class="fal">For all Lady's</p>
+  </div id="div1">
+  <h1 style="text-align: center;">パーソナルカラー診断</h1>
+  <div class="body1" style="margin: 0 auto;">
+    <video id="video" autoplay></video>
+    <div name="count" id="cnt"></div>
+    <p><button id="captureButton">カメラに向かってSmile</button></P>
+    <canvas id="canvas"></canvas>
+  </div>
+  <div id="koimikuji">♡恋みくじ♡</div>
+  <div class="omikuji-container">
+    <div class="omikuji-card" onclick="drawOmikuji(1)">💛💛</div>
+    <div class="omikuji-card" onclick="drawOmikuji(2)">🌟🌟</div>
+    <div class="omikuji-card" onclick="drawOmikuji(3)">🌸🌸</div>
+    <div class="omikuji-card" onclick="drawOmikuji(4)">🎀🎀</div>
+    <div class="omikuji-card" onclick="drawOmikuji(5)">🐊🐊</div>
+  </div>
+  <div id="omikuji-result"></div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
