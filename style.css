@@ -1,0 +1,112 @@
+.flowers {
+  width: 1250px;
+  height: 570px;
+  object-fit: cover;
+}
+
+.header {
+  position: relative;
+  width: 1250px;
+}
+
+.fal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: darkviolet;
+  width: 1250px;
+  height: auto;
+  font-size: 160px;
+  font-weight:bold;
+  text-align: center;
+  font-style: italic;
+  font-family: Mv Boli;
+}
+
+#canvas {
+  align-self: center;
+  width: 640px;
+  height: 480px;
+  margin: auto;
+  align-items: center;
+  display: none;
+}
+
+#video {
+  align-self: center;
+  width: 480px;
+  height: 360px;
+  margin: auto;
+  align-items: center;
+}
+
+#captureButton {
+  background-color: magenta;
+  border-color: aliceblue;
+  color: aliceblue;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  margin: auto;
+  font-family: Mv Boli;
+}
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1250px;
+  height: auto;
+}
+
+#cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100px;
+  height: 60px;
+  font-size: 50px;
+  background-color: thistle;
+}
+
+.omikuji-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#koimikuji {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.omikuji-card {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid magenta;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+}
+
+#omikuji-result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: darkviolet;
+}
