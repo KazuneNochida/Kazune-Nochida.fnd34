@@ -30,7 +30,7 @@ function showPopup(message) {
   document.body.appendChild(popup);
   setTimeout(() => {
     popup.remove();
-  }, 5000);
+  }, 8000);
 }
 
 // カメラ起動
